@@ -1,3 +1,7 @@
+import {config as dotEnvConfig} from 'dotenv';
+
+dotEnvConfig();
+
 require('@nomiclabs/hardhat-truffle5');
 require('hardhat-typechain');
 
